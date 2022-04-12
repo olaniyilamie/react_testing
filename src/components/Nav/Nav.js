@@ -1,9 +1,10 @@
+import "./Nav.css";
 function Nav() {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <div className="container-fluid py-md-4 nav_div">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center  nav_div">
         <a className="navbar-brand" href="#">
-          <div className="col-4 justify-content-center">Navbar</div>
+          <div className="col-6 justify-content-center">Navbar</div>
         </a>
         <button
           className="navbar-toggler"
@@ -16,12 +17,12 @@ function Nav() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="col-8">
+        <div className="col-6 ">
           <div
-            className="collapse navbar-collapse justify-content-center"
+            className="collapse navbar-collapse justify-content-end"
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav mr-auto">
+            <ul className="navbar-nav">
               <li className="nav-item active">
                 <a className="nav-link" href="#">
                   Home
@@ -38,12 +39,12 @@ function Nav() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled" href="#">
+                <a className="nav-link" href="#">
                   Photos
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled" href="#">
+                <a className="nav-link" href="#">
                   Contact
                 </a>
               </li>
