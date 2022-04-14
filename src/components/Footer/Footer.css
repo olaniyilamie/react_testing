@@ -1,0 +1,47 @@
+.footer_div{
+    background-color: #1E202B !important;
+    color:white !important;
+    margin: 50px 0px;
+}
+
+.subscribe_div{
+    border-radius: 30px !important;
+    border: 1px solid #171923 !important;
+    background-color: #171923 !important;
+    padding: 5px !important;
+   
+}
+
+.subscribe_div input{
+    background-color: transparent !important;
+    border: 0px;
+    width: 100%;
+    font-size: 12px;
+    padding:8px 5px;
+}
+
+.subscribe_div input.subcribe_button{
+    background-color:  #1FB0DB !important;
+    color:white;
+    border-radius: 30px !important;
+}
+
+.button_div{
+    padding: 0px !important;
+}
+
+.footer_icon{
+    background-color: #171923;
+    color : #1FB0DB;
+    padding : 8px;
+    margin-right : 10px;
+    border-radius: 50%;
+    font-size: 35px;
+
+}
+
+.design_by{
+    font-size: x-small;
+    padding: 5px 0px;
+    color:slategrey;
+}
