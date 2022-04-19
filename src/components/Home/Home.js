@@ -8,7 +8,8 @@ import { FaCloudShowersHeavy } from "react-icons/fa";
 import { FaCloudSunRain } from "react-icons/fa";
 import { FaCloudMoon } from "react-icons/fa";
 import { FaCloudMeatball } from "react-icons/fa";
-// import { FaCloudMoon } from "react-icons/fa";
+import LiveCamera from "./Livecamera";
+
 function Home() {
   return (
     <div className="row">
@@ -132,7 +133,7 @@ function Home() {
                         <small className="days">Sunday</small>
                       </div>
                       <div className="col-12 text-center">
-                        <FaCloudMeatball className="days_icon"/>
+                        <FaCloudMoon className="days_icon"/>
                         <h3 className="days_weather">23°C</h3>
                         <p className="days_weather2">18°C</p>
                     </div>
@@ -144,6 +145,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <LiveCamera/>
     </div>
   );
 }
